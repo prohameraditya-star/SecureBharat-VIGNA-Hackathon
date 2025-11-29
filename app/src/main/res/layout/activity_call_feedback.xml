@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/txtNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Incoming call:"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnScam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="🚨 Mark as Scam"
+        android:backgroundTint="#E74C3C"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnSafe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="✅ Mark as Safe"
+        android:backgroundTint="#2ECC71"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

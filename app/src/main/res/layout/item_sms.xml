@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="#FFFFFF"
+    android:layout_marginBottom="6dp"
+    android:elevation="2dp">
+
+    <TextView
+        android:id="@+id/smsSender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:text="Sender" />
+
+    <TextView
+        android:id="@+id/smsBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#333333"
+        android:text="Message body here..." />
+
+    <TextView
+        android:id="@+id/smsRisk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Risk: Low"
+        android:textStyle="italic"
+        android:textColor="#008000"
+        android:layout_marginTop="4dp"/>
+</LinearLayout>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "101932158571",
+    "firebase_url": "https://sbtest-9acea-default-rtdb.firebaseio.com",
+    "project_id": "sbtest-9acea",
+    "storage_bucket": "sbtest-9acea.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:101932158571:android:a057c0cf6bd17b58c26b2e",
+        "android_client_info": {
+          "package_name": "com.example.paisacheck360"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG2-SiJRhup_ccKQCsXA4ES8w0z5bij_8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

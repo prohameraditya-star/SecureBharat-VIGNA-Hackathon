@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="reportButton" type="id" />
+    <item name="dismissButton" type="id" />
+    <item name="alertTimestamp" type="id" />
+    <item name="alertMessage" type="id" />
+    <item name="alertSender" type="id" />
+    <item name="alertTitle" type="id" />
+</resources>

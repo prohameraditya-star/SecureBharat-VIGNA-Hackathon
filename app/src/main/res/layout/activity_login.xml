@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#E6F5FF"
+    android:padding="24dp">
+
+    <!-- Logo & Title -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_shield"
+            android:contentDescription="@string/app_name"
+            app:tint="#0A66C2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Secure Bharat"
+            android:textColor="#0A66C2"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp" />
+    </LinearLayout>
+
+    <!-- Card Background -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/input_white_box"
+        android:padding="20dp"
+        android:elevation="4dp">
+
+        <!-- Welcome Text -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome Back!"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in to protect your digital world"
+            android:textColor="#555555"
+            android:textSize="14sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Username Field -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Username or Email"
+            android:drawableStart="@drawable/ic_person"
+            android:background="@drawable/edittext_bg"
+            android:paddingStart="12dp"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Password Field -->
+        <EditText
+            android:id="@+id/passwordInput"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:drawableStart="@drawable/ic_lock"
+            android:background="@drawable/edittext_bg"
+            android:paddingStart="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Login Button (Solid Yellow) -->
+        <Button
+            android:id="@+id/loginBtn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="LOGIN"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#FFC107"
+            android:background="@drawable/rounded_button_outline"
+            android:layout_marginBottom="10dp" />
+
+        <!-- Register Button (Yellow Outline) -->
+        <Button
+            android:id="@+id/registerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="REGISTER"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textColor="#FFC107"
+            android:background="@drawable/rounded_button_outline" />
+    </LinearLayout>
+
+    <!-- Forgot Password -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textColor="#0A66C2"
+        android:textSize="14sp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
